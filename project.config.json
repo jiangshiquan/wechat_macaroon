@@ -1,0 +1,87 @@
+{
+  "description": "项目配置文件。",
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "enhance": false,
+    "postcss": false,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "newFeature": false,
+    "coverView": true,
+    "nodeModules": false,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
+    "useMultiFrameRuntime": true,
+    "useApiHook": true,
+    "useApiHostProcess": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "enableEngineNative": false,
+    "bundle": false,
+    "useIsolateContext": true,
+    "useCompilerModule": true,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "userConfirmedBundleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.15.0",
+  "appid": "wx51f32dbc25c96f46",
+  "projectname": "macaroon",
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {
+    "search": {
+      "list": []
+    },
+    "conversation": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": -1,
+          "name": "列表",
+          "pathName": "pages/list/list",
+          "query": ""
+        },
+        {
+          "id": -1,
+          "name": "订单详情",
+          "pathName": "pages/order/balance/balance",
+          "query": ""
+        },
+        {
+          "id": 2,
+          "name": "wode ",
+          "pathName": "pages/mine/mine",
+          "query": ""
+        },
+        {
+          "id": -1,
+          "name": "订单列表",
+          "pathName": "pages/order/list/list",
+          "query": ""
+        },
+        {
+          "id": -1,
+          "name": "订单详情",
+          "pathName": "pages/order/detail/detail",
+          "query": ""
+        }
+      ]
+    }
+  }
+}
